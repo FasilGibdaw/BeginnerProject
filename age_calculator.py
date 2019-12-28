@@ -26,5 +26,5 @@ def age_calculator(yr, mo, day):
     return 'Your age is ' + str(y) + ' years ' + str(m) + ' months ' + str(d) + ' days old'
 
 
-# calculating my age here
-print(age_calculator(1985, 1, 18))
+# calculating a sample age here
+print(age_calculator(1990, 11,19))
