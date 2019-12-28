@@ -1,4 +1,7 @@
-# P4. Write a programme, which generates a random password for the user. Ask the user how long they want their password to be, and how many letters and numbers they want in their password. Have a mix of upper and lowercase letters, as well as numbers and symbols. The password should be a minimum of 6 characters long.
+# P4. Write a programme, which generates a random password for the user. 
+# Ask the user how long they want their password to be, and how many letters and numbers they want in their password. 
+# Have a mix of upper and lowercase letters, as well as numbers and symbols. 
+# The password should be a minimum of 6 characters long.
 # A script developed by Fasil Tesema, Longyearbyen, December 28 2019
 from random import randint, sample, shuffle
 
@@ -19,8 +22,6 @@ while True:
         j = ''.join(sample(letter_lower, ll))
         k = ''.join(sample(letter_upper, ul))
         l = ''.join(sample(numbers, n))
-        # print('your password is:', f+f2+f3+f4)
-        # print "your password is %s%s%s%s" % (i, j, k, l)
         print 'your password is', ''.join(sample(''.join([i, j, k, l]), length_of_password)) # join the poossible combination and shuffle it randomly
         break
    # else:
