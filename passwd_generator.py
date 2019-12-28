@@ -3,7 +3,7 @@
 # Have a mix of upper and lowercase letters, as well as numbers and symbols. 
 # The password should be a minimum of 6 characters long.
 # A script developed by Fasil Tesema, Longyearbyen, December 28 2019
-from random import randint, sample, shuffle
+from random import randint, sample
 
 letter_lower = 'abcdefghijklmnopqrstuvwxyz'
 letter_upper = letter_lower.upper()
